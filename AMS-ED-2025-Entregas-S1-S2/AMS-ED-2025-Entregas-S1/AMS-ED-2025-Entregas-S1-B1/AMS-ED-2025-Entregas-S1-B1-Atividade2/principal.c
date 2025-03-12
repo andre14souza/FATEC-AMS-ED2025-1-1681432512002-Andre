@@ -1,11 +1,11 @@
 /*----------------------------------------------------------------------------------*/
 /*   FATEC-São Caetano do Sul                 Estrutura de Dados                    */
-/*                         Id da Atividade: xxxxxxxxxxx                             */
+/*                         Id da Atividade: S1-B1-2                                */
 /*             Objetivo: Implementação de um sistema para seleção de residência    */
 /*                        médica, utilizando vetores e ponteiros.                  */
 /*                                                                                  */
-/*                                  Autor: xxxxxxxxxxxxxxxxxxxxxxxxxxx              */
-/*                                                                    Data:xx/xx/xxx*/
+/*                                  Autor: André Alexandria de Souza                */
+/*                                                                  Data:12/03/2025 */
 /*----------------------------------------------------------------------------------*/
 
 #include <stdio.h>
