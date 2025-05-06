@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Bubble Sort" id="1EQzhFpRB0Utje6LxheL">
+    <mxGraphModel dx="786" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-87" value="Início" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-88" value="Entrada de n (quantidade de elementos)" style="shape=parallelogram;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="110" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-89" value="Declaração do array: arr[n]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-90" value="Laço Externo (for i = 0; i &lt; n-1)" style="shape=hexagon;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-91" value="Laço Interno (for j = 0; j &lt; n - i - 1)" style="shape=hexagon;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-92" value="Comparação: arr[j] &gt; arr[j+1]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-93" value="Troca de elementos (temp = arr[j]; arr[j] = arr[j+1]; arr[j+1] = temp)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="520" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-94" value="Fim do Laço Interno" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-95" value="Fim do Laço Externo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-96" value="Imprimir array ordenado" style="shape=parallelogram;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="780" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-97" value="Fim do programa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-98" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-87" target="rMTufxNyqAf8ls_iQUA_-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-99" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-88" target="rMTufxNyqAf8ls_iQUA_-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-100" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-89" target="rMTufxNyqAf8ls_iQUA_-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-101" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-90" target="rMTufxNyqAf8ls_iQUA_-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-102" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-91" target="rMTufxNyqAf8ls_iQUA_-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-103" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-92" target="rMTufxNyqAf8ls_iQUA_-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-104" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-93" target="rMTufxNyqAf8ls_iQUA_-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-105" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-94" target="rMTufxNyqAf8ls_iQUA_-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-106" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-94" target="rMTufxNyqAf8ls_iQUA_-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-107" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-95" target="rMTufxNyqAf8ls_iQUA_-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-108" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-95" target="rMTufxNyqAf8ls_iQUA_-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMTufxNyqAf8ls_iQUA_-109" style="endArrow=block;" edge="1" parent="1" source="rMTufxNyqAf8ls_iQUA_-96" target="rMTufxNyqAf8ls_iQUA_-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
